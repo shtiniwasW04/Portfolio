@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vedant Marne Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="toggle-btn" onclick="toggleDarkMode()">
+        🌙 Dark Mode
+    </button>
+
+    <header>
+        <img src="profile.jpg" alt="Profile Photo">
+
+        <h1>shriniwas wayadande</h1>
+
+        <p>
+            Computer Science Student
+        </p>
+    </header>
+
+    <section id="about">
+        <div class="card">
+
+            <h2>About Me</h2>
+
+            <p>
+                I am Shriniwas Wayadande, a Computer Science graduate with
+                knowledge of C, HTML, CSS and
+                JavaScript. I enjoy solving programming problems and
+                building real-world software projects.
+            </p>
+
+        </div>
+    </section>
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+        </div>
+
+    </section>
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Student Management System</h3>
+
+            <p>
+                Java and MySQL based CRUD application
+                for managing student records.
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Employee Management System</h3>
+
+            <p>
+                Spring Boot application with database
+                integration and REST APIs.
+            </p>
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter Your Name">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Enter Your Email">
+
+            <textarea
+                id="message"
+                rows="5"
+                placeholder="Enter Your Message"></textarea>
+
+            <button type="submit">
+                Submit
+            </button>
+
+            <p id="successMsg"></p>
+
+        </form>
+
+    </section>
+
+    <footer>
+        <p>© 2026 Shriniwas Wayadande | Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
